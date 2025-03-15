@@ -6,6 +6,7 @@ import Loader from '../components/Loader'
 import Alert from '../components/Alert'
 import Fox from '../models/Fox'
 import useAlert from '../hooks/useAlert'
+import Footer from '../components/Footer';
 
 
 const Contact = () => {
@@ -66,6 +67,7 @@ const Contact = () => {
     })
   };
   return (
+    
     <section className='relative flex lg:flex-row flex-col max-container'
         style={{
           minHeight: '100vh'
@@ -161,7 +163,9 @@ const Contact = () => {
         </Canvas>
 
       </div>
+      {/* <Footer/> */}
     </section>
+    
   )
 }
 

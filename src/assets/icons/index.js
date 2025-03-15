@@ -26,22 +26,31 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-import file from './file.PNG'
+import sql from './sql.svg'
+import java from './java.svg'
+import c from './c.svg'
+import r from './r.svg'
+import python from './python.svg'
 
 export {
     css,
     express,
     git,
     github,
+    c,
+    r,
     html,
+    python,
     javascript,
     mongodb,
     motion,
     mui,
+    java,
     nextjs,
     nodejs,
     react,
     redux,
+    sql,
     sass,
     tailwindcss,
     typescript,
@@ -57,5 +66,4 @@ export {
     contact,
     soundon,
     soundoff,
-    file
 }
