@@ -64,7 +64,7 @@ const renderContent = {
      <InformationBox
         text="hokage dattebayo" //text for stage 2
         link="/contact"
-        btnText="My contacts. "
+        btnText="Leave a message to me here! "
     />
   )
 };

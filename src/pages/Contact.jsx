@@ -3,7 +3,9 @@ import { Canvas }from '@react-three/fiber'
 import emailjs from '@emailjs/browser'
 
 import Loader from '../components/Loader'
+import Alert from '../components/Alert'
 import Fox from '../models/Fox'
+import useAlert from '../hooks/useAlert'
 
 
 const Contact = () => {
@@ -11,6 +13,7 @@ const Contact = () => {
   const [form, setForm] = useState({name:'', email:'', message:''});
   const[isLoading, setIsLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState('idle');
+  const { alert, showAlert, hideAlert } = useAlert();
   
   //takes events and calls setForm function
   const changes = (e) =>{
@@ -43,8 +46,11 @@ const Contact = () => {
     ).then(() => { //what happens after sending message
       setIsLoading(false);
       //success message and hide alerts
-
+      showAlert({show:true, 
+                text:'Your message was sent successfully.',
+                type: 'success'})
       setTimeout(() =>{
+        hideAlert();
         setCurrentAnimation('idle');
         setForm({ name: '', email: '', message:''});
       }, [3000]);
@@ -54,17 +60,21 @@ const Contact = () => {
       setCurrentAnimation('Static Pose');
       console.log(error);
       //show error message
+      showAlert({show:true, 
+        text:'Sorry, your message was not sent. Please try again.',
+        type: 'danger'})
     })
   };
   return (
     <section className='relative flex lg:flex-row flex-col max-container'
         style={{
-          background: 'linear-gradient(to right, #228b22, #98fb98)',
+          background: 'linear-gradient(to right, #2e8b57, #3cb371, #66cdaa, #7fffd4)',
           padding: '10px',
-          borderRadius: '10px',
+          minWidth:'100%',
           minHeight: '100vh'
         }}
         >
+          {alert.show && <Alert {...alert}/>}
       <div className = "flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">
           Contact Me
@@ -136,7 +146,7 @@ const Contact = () => {
                 currentAnimation={currentAnimation}
                 position={[0, -1, 0]} 
                 rotation={[0.35, -.03, 0]} 
-                scale={[7.5,7.5,7.5]}/>
+                scale={[8,8,8]}/>
           </Suspense>
         </Canvas>
 
