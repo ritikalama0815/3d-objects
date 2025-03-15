@@ -68,9 +68,6 @@ const Contact = () => {
   return (
     <section className='relative flex lg:flex-row flex-col max-container'
         style={{
-          background: 'linear-gradient(to right, #2e8b57, #3cb371, #66cdaa, #7fffd4)',
-          padding: '10px',
-          minWidth:'100%',
           minHeight: '100vh'
         }}
         >
@@ -117,9 +114,22 @@ const Contact = () => {
               onBlur={blur}
             />
           </label>
+          {/* 'linear-gradient(to right, #5500ff, #9965fd)' */}
           <button
              type='submit'
-             className='btn'
+             style ={{color: 'white', 
+             background: 'linear-gradient(to right, #5500ff, #9965fd)', 
+             focusRing: '4px', 
+             outline: 'none', 
+             focusRingColor: 'blue-300', 
+             fontWeight: 'medium', 
+             borderRadius: '0.5rem', 
+             fontSize: '0.875rem', 
+             width: '100%', 
+             maxWidth: 'auto', 
+             padding: '0.625rem 1.25rem', 
+             textAlign: 'center'
+             }}
              disabled={isLoading}
              onFocus={focus}
              onBlur={blur}
