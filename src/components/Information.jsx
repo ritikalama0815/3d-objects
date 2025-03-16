@@ -42,29 +42,29 @@ const renderContent = {
         boxShadow: '0.6vmin 0.6vmin #336cc1, 1vmin 1vmin #0092db, 1vmin 1vmin #0092db, 0.65vmin 1vmin #0092db, 1vmin 0.65vmin #0092db'
       }}
     >
-      I am <span className='font-semibold'> Ritika Lama</span>
-      <br/> from Nepal.
+      Welcome to my Portfolio. I am <span className='font-semibold'> Ritika Lama</span> from Nepal🇳🇵. 
+      <br/> You can move the cursor around to navigate through the island!
     </h1>
   ),
   2: (
     <InformationBox
-      text="itamiyo kanjiro, itami o kangayerao the world shall know pain" //text for stage 2
+      text="This section is about the skills I learned and know and some experiences I have gathered working in various places." //text for stage 2
       link="/about"
       btnText="Click here to learn more. "
     />
   ),
   3: (
     <InformationBox
-      text="orewa kaijoku o ni naru otoko da" //text for stage 2
+      text="I have done many personal projects and some influential researches in my college life. Interested? Click the button here.⬇" //text for stage 2
       link="/projects"
-      btnText="More for research and projects. "
+      btnText="More "
     />
   ),
   4: (
      <InformationBox
-        text="hokage dattebayo" //text for stage 2
+        text="If you have any inquiries, feel free to leave me a message." //text for stage 2
         link="/contact"
-        btnText="Leave a message to me here! "
+        btnText="Contact here. "
     />
   )
 };

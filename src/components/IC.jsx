@@ -17,7 +17,7 @@ const IC = () => {
             fontSize: '5xl', 
             textAlign: 'center'
         }}>
-            Let's skibidi together. 
+            Let's build something together. 
         </p>
         <Link to="/contact" style={{
              color: 'white', 

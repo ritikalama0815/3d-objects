@@ -1,9 +1,7 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {ta, oa, ra } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -15,15 +13,20 @@ import {
     sql,
     nextjs,
     nodejs,
-    pricewise,
     c,
     r,
+    c1,
     react,
     python,
-    snapgram,
-    summiz,
+    vscode,
     tailwindcss,
-    threads,
+    book,
+    cc,
+    game,
+    hand,
+    keyboard,
+    person,
+    research
 } from "../assets/icons";
 
 export const skills = [
@@ -36,6 +39,11 @@ export const skills = [
         imageUrl: express,
         name: "Express",
         type: "Backend",
+    },
+    {
+        imageUrl: c1,
+        name: "C",
+        type: "Development",
     },
     {
         imageUrl: git,
@@ -78,6 +86,11 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: vscode,
+        name: "Visual Studio Code",
+        type: "Development Tool",
+    },
+    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -113,7 +126,7 @@ export const experiences = [
     {
         title: "Researcher",
         company_name: "Computer Science Dept, Truman State University",
-        icon: starbucks,
+        icon: ra,
         iconBg: "#accbe1",
         date: "Novemver 2023 - Present",
         points: [
@@ -126,7 +139,7 @@ export const experiences = [
     {
         title: "Teacher's Assistant",
         company_name: "Truman State University",
-        icon: tesla,
+        icon: ta,
         iconBg: "#fbc3bc",
         date: "Jan 2023 - Dec 2023",
         points: [
@@ -139,7 +152,7 @@ export const experiences = [
     {
         title: "Office Assistant",
         company_name: "Truman State University",
-        icon: shopify,
+        icon: oa,
         iconBg: "#b7e4c7",
         date: "Jan 2023 - dec 2023",
         points: [
@@ -171,49 +184,49 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: hand,
         theme: 'btn-back-red',
         name: 'Hand Tracker',
         description: 'An application that tracks your hands through webcam and does certain things based on certain commands thar user input.',
         link: 'https://github.com/ritikalama0815/handtrack-python',
     },
     {
-        iconUrl: threads,
+        iconUrl: game,
         theme: 'btn-back-green',
         name: 'Arena Game',
         description: 'A simple web game that allows user to move freely within the arena to collect some "coins" that helps users to get the points',
         link: 'https://github.com/ritikalama0815/arena-game',
     },
     {
-        iconUrl: car,
+        iconUrl: book,
         theme: 'btn-back-blue',
         name: 'Recipe Book',
         description: 'A book that has recipes of everything users ask for.',
         link: 'https://github.com/ritikalama0815/Recipe',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: keyboard,
         theme: 'btn-back-pink',
         name: 'Speed Typing',
         description: 'A website that counts the WPM of a user based on their typing speed and accuracy.',
         link: 'https://github.com/ritikalama0815/type',
     },
     {
-        iconUrl: estate,
+        iconUrl: cc,
         theme: 'btn-back-black',
         name: 'Credit Card',
         description: 'A GUI application that allows to check whether the credit card is valid or not.',
         link: 'https://github.com/ritikalama0815/CreditCard',
     },
     {
-        iconUrl: summiz,
+        iconUrl: person,
         theme: 'btn-back-yellow',
         name: '3d Personal Portfolio',
         description: 'Website that sums up my skills and projects while showcasing the 3D rendering of objects',
         link: 'https://github.com/ritikalama0815/3d-objects',
     },
     {
-        iconUrl: summiz,
+        iconUrl: research,
         theme: 'btn-back-yellow',
         name: 'Lung and Colon Cancer Research',
         description: 'A deep learning model used to train and test the LC25000 dataset and improved it to achieve 100% accuracy on lung and colon cancer detection.',

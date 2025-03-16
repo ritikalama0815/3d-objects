@@ -5,23 +5,12 @@ import github from './github.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
-import motion from './motion.svg'
-import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
-import redux from './redux.svg'
-import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
-import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
-import estate from './estate.svg'
-import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
-import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
@@ -31,8 +20,24 @@ import java from './java.svg'
 import c from './c.svg'
 import r from './r.svg'
 import python from './python.svg'
+import vscode from './vscode.svg'
+import c1 from './c-1.svg'
+import book from './book.svg'
+import cc from './cc.svg'
+import game from './game.svg'
+import hand from './hand.svg'
+import keyboard from './keyboard.svg'
+import person from './person.svg'
+import research from './research.svg'
 
 export {
+    book,
+    cc,
+    game,
+    hand,
+    keyboard,
+    person,
+    research,
     css,
     express,
     git,
@@ -40,28 +45,19 @@ export {
     c,
     r,
     html,
+    vscode,
     python,
     javascript,
     mongodb,
-    motion,
-    mui,
     java,
     nextjs,
     nodejs,
     react,
-    redux,
     sql,
-    sass,
     tailwindcss,
-    typescript,
     linkedin,
     twitter,
-    car,
-    estate,
-    pricewise,
-    snapgram,
-    summiz,
-    threads,
+    c1,
     arrow,
     contact,
     soundon,
