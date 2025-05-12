@@ -17,7 +17,7 @@ const Projects = () => {
       </h3>
       
       <div className='mt-5 flex flex-col gap-3 text-blue-500 text-lg'>
-        <p>I have worked on a lot of projects and researches as a student. Here are some that I am really proud of, and if 
+        <p>I have worked on various projects and researches as a student. Here are some the accomplishments I am really proud of, and if 
           you feel like I could improve, you can always contribute your ideas. Your ideas will be very useful for me.</p>
       </div>
 
@@ -59,7 +59,7 @@ const Projects = () => {
                 <img
                   src={project.iconUrl}
                   alt="Project Icon"
-                  className="w-1/2 h-1/2 object-contain"
+                  className="w-7 h-7 object-contain"
                   onError={(e) => { e.target.onerror = null; e.target.src = 'path/to/default/icon.png'; }} // Fallback to a default icon if the image fails to load
                 />
               </div>

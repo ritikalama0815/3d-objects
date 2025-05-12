@@ -21,12 +21,11 @@ import {
     vscode,
     tailwindcss,
     book,
-    cc,
     game,
-    hand,
-    keyboard,
     person,
-    research
+    research, ai_interviewer,
+    inventory,
+    plawnet, emotion
 } from "../assets/icons";
 
 export const skills = [
@@ -184,11 +183,18 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: hand,
+        iconUrl: inventory,
         theme: 'btn-back-red',
-        name: 'Hand Tracker',
-        description: 'An application that tracks your hands through webcam and does certain things based on certain commands thar user input.',
-        link: 'https://github.com/ritikalama0815/handtrack-python',
+        name: 'Inventory Management System',
+        description: 'A web application that helps users, specifically U&I services at Truman State University to manage and keep track of the items in the inventory.',
+        link: 'https://github.com/shibampokerail/InventoryManagementSystem',
+    },
+    {
+        iconUrl: plawnet,
+        theme: 'btn-back-red',
+        name: 'Plawnet',
+        description: 'An e-commerce application for buying and selling of sustainable products.',
+        link: 'https://github.com/ritikalama0815/Plawnet_truhacks',
     },
     {
         iconUrl: game,
@@ -205,18 +211,18 @@ export const projects = [
         link: 'https://github.com/ritikalama0815/Recipe',
     },
     {
-        iconUrl: keyboard,
+        iconUrl: ai_interviewer,
         theme: 'btn-back-pink',
-        name: 'Speed Typing',
-        description: 'A website that counts the WPM of a user based on their typing speed and accuracy.',
-        link: 'https://github.com/ritikalama0815/type',
+        name: 'AI Interviewer',
+        description: 'A web application that helps users to prepare for the interview in various tech companies and in various positions and giving them feedback based on their answers.',
+        link: 'https://github.com/ritikalama0815/interview-prep',
     },
     {
-        iconUrl: cc,
+        iconUrl: emotion,
         theme: 'btn-back-black',
-        name: 'Credit Card',
-        description: 'A GUI application that allows to check whether the credit card is valid or not.',
-        link: 'https://github.com/ritikalama0815/CreditCard',
+        name: 'Emotion Detection',
+        description: 'A website that detects the emotion of a user based on their facial expression and gives them the feedback.',
+        link: 'https://github.com/ritikalama0815/CS480---Final-Project',
     },
     {
         iconUrl: person,

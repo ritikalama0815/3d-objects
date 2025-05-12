@@ -29,8 +29,16 @@ import hand from './hand.svg'
 import keyboard from './keyboard.svg'
 import person from './person.svg'
 import research from './research.svg'
+import inventory from './inventory.svg'
+import plawnet from './plawnet.svg'
+import ai_interviewer from './ai-interviewer.svg'
+import emotion from './emotion.svg'
+
 
 export {
+    inventory,
+    plawnet, ai_interviewer,
+    emotion,
     book,
     cc,
     game,
