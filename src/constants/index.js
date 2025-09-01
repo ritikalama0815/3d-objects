@@ -25,7 +25,7 @@ import {
     person,
     research, ai_interviewer,
     inventory,
-    plawnet, emotion
+    plawnet, emotion, forestfire
 } from "../assets/icons";
 
 export const skills = [
@@ -183,11 +183,25 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: research,
+        theme: 'btn-back-yellow',
+        name: 'Lung and Colon Cancer Research',
+        description: 'A deep learning model used to train and test the LC25000 dataset and improved it to achieve 100% accuracy on lung and colon cancer detection.',
+        link: 'https://www.mdpi.com/2072-6694/16/22/3879',
+    },
+    {
         iconUrl: inventory,
         theme: 'btn-back-red',
         name: 'Inventory Management System',
         description: 'A web application that helps users, specifically U&I services at Truman State University to manage and keep track of the items in the inventory.',
         link: 'https://github.com/shibampokerail/InventoryManagementSystem',
+    },
+    {
+        iconUrl: forestfire,
+        theme: 'btn-back-red',
+        name: 'Wildfire Prediction',
+        description: 'A deep learning model used to predict the wildfire based on satellite imagery utilizing EfficientNet-b0 backbone',
+        link: '',
     },
     {
         iconUrl: plawnet,
@@ -231,11 +245,4 @@ export const projects = [
         description: 'Website that sums up my skills and projects while showcasing the 3D rendering of objects',
         link: 'https://github.com/ritikalama0815/3d-objects',
     },
-    {
-        iconUrl: research,
-        theme: 'btn-back-yellow',
-        name: 'Lung and Colon Cancer Research',
-        description: 'A deep learning model used to train and test the LC25000 dataset and improved it to achieve 100% accuracy on lung and colon cancer detection.',
-        link: 'https://www.mdpi.com/2072-6694/16/22/3879',
-    }
 ];

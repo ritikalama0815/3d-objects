@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <header className = "header">
-        <NavLink to ="/" className = "w-10 h-10 rounded-lg items-center justify-center flex font-bold shadow-md"
+        <NavLink to ="/" className = "flex items-center justify-center w-10 h-10 font-bold rounded-lg shadow-md"
         style={{color: 'white', 
              background: 'linear-gradient(to right, #5500ff, #9965fd)', 
              focusRing: '4px', 
@@ -19,7 +19,7 @@ const Navbar = () => {
              textAlign: 'center'}}>
             <p className = "to-blue-300"> Home</p>
         </NavLink>
-        <nav className="flex text-lg gap-7 font-medium">
+        <nav className="flex text-lg font-medium gap-7">
             <NavLink to = "/about" className = {({ isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             About Me
             </NavLink>
@@ -27,7 +27,7 @@ const Navbar = () => {
             My projects and Research
             </NavLink>
             <NavLink to = "/fun" className = {({ isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
-            Fun Section
+            Arts
             </NavLink>
             <NavLink to = "/contact" className = {({ isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Contact Me

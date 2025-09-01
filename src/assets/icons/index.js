@@ -33,13 +33,14 @@ import inventory from './inventory.svg'
 import plawnet from './plawnet.svg'
 import ai_interviewer from './ai-interviewer.svg'
 import emotion from './emotion.svg'
-
+import forestfire from './forestfire.svg'
 
 export {
     inventory,
     plawnet, ai_interviewer,
     emotion,
     book,
+    forestfire,
     cc,
     game,
     hand,
